@@ -1,50 +1,44 @@
 {
   "active": true,
-  "hostname": "rdpfree-9",
+  "hostname": "pablo-11",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Native Windows",
   "hardware": {
-    "cpu_threads": 4,
+    "disk_free_gb": 77.5,
     "ram_gb": 16.0,
-    "disk_free_gb": 81.6
+    "cpu_threads": 4
   },
   "rdp_port": 3389,
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-23T22:34:51Z",
-  "expires_at": "2026-10-24T04:16:51Z",
+  "started_at": "2026-10-24T00:23:21Z",
+  "expires_at": "2026-10-24T06:05:21Z",
   "duration_menit": 342,
-  "run_id": "40034460837",
+  "run_id": "40044621325",
   "run_attempt": "1",
-  "run_number": "9",
-  "run_url": "https://github.com/PahriIndrawa/XyRDP/actions/runs/40034460837",
+  "run_number": "11",
+  "run_url": "https://github.com/PahriIndrawa/XyRDP/actions/runs/40044621325",
   "mode": "bersih+win10",
-  "persist": {
-    "restored": true,
-    "files": 8,
-    "profile": "C:\\Users\\xyadmin",
-    "source": "xyrdp-state.7z.enc"
-  },
   "storage": {
     "boost": "ok",
-    "before_gb": 81.65,
-    "after_gb": 105.9,
+    "before_gb": 77.52,
+    "after_gb": 101.77,
     "gained_gb": 24.25,
     "removed_targets": 19,
     "drives": [
       {
-        "size_gb": 255.45,
-        "free_gb": 105.9,
         "letter": "C",
-        "used_gb": 149.55
+        "used_gb": 153.68,
+        "free_gb": 101.77,
+        "size_gb": 255.45
       },
       {
-        "size_gb": 150.0,
-        "free_gb": 147.0,
         "letter": "D",
-        "used_gb": 3.0
+        "used_gb": 0.13,
+        "free_gb": 219.85,
+        "size_gb": 219.98
       }
     ],
     "game_dir": "D:\\Games (disarankan untuk GTA)",
@@ -66,26 +60,26 @@
   },
   "grafis": {
     "mode": "software",
+    "vulkan": "lavapipe 1.3 (CPU)",
     "mesa": "26.2.4",
     "adapters": "Microsoft Hyper-V Video",
-    "vulkan": "lavapipe 1.3 (CPU)",
-    "opengl": "4.6 (Mesa llvmpipe system-wide x64/x86 + OpenGL ES 3.2)",
-    "path": "C:\\XyRDP\\grafis\\mesa-x64"
+    "path": "C:\\XyRDP\\grafis\\mesa-x64",
+    "opengl": "4.6 (Mesa llvmpipe system-wide x64/x86 + OpenGL ES 3.2)"
   },
   "samp": {
+    "silentpatch": false,
+    "webview2": true,
+    "samp_client": true,
     "dgvoodoo_d3d9": true,
+    "status": "runtimes-2026-ready",
+    "vc2013_x86": true,
+    "vc2015_x64": true,
+    "vc2013_x64": true,
+    "fullscreen": true,
+    "dep_optin": true,
     "vc2015_x86": true,
     "directx9": true,
-    "directplay": true,
-    "webview2": true,
-    "vc2015_x64": true,
-    "samp_client": true,
-    "silentpatch": false,
-    "vc2013_x86": true,
-    "status": "runtimes-2026-ready",
-    "fullscreen": true,
-    "vc2013_x64": true,
-    "dep_optin": true
+    "directplay": true
   },
   "games": {
     "roblox": {
@@ -96,24 +90,24 @@
       "status": "ready",
       "launcher": "C:\\Games\\MEmu\\Launch-MEmu.ps1"
     },
-    "ets2": {
-      "status": "ready",
-      "launcher": "C:\\Games\\ETS2\\Launch-ETS2-Free.ps1"
-    },
-    "fivem": {
-      "status": true,
-      "sound": true
-    },
-    "minecraft_java": {
-      "opengl46": true,
-      "official_exe": true,
-      "tlauncher_jar": true,
-      "status": "ready",
-      "prismlauncher": true
-    },
     "blender": {
       "status": "ready",
       "launcher": "C:\\Games\\Blender\\Launch-Blender.ps1"
+    },
+    "minecraft_java": {
+      "status": "ready",
+      "opengl46": true,
+      "tlauncher_jar": true,
+      "official_exe": true,
+      "prismlauncher": true
+    },
+    "fivem": {
+      "sound": true,
+      "status": true
+    },
+    "ets2": {
+      "status": "ready",
+      "launcher": "C:\\Games\\ETS2\\Launch-ETS2-Free.ps1"
     }
   },
   "extras": {
@@ -122,11 +116,11 @@
     "wallpaper_file": "wallpaper.jpg",
     "vscode": "skip",
     "notepadpp": "skip",
-    "admin": false
+    "admin": true
   },
   "tools_hub": {
-    "exe": "C:\\XyRDP\\tools\\XyDeskDashboard.exe",
     "installed": true,
+    "exe": "C:\\XyRDP\\tools\\XyDeskDashboard.exe",
     "auto_start": true
   },
   "xydesk": {
@@ -147,21 +141,21 @@
     "note": "Host siap dipakai klien XyDesk Remote mode Koneksi RDP (Host+Port tunnel). Kunci WinStations\\RDP-Tcp sengaja TIDAK ditulis supaya listener 3389 tidak mati di runner GitHub."
   },
   "akses": {
-    "mode": "tailscale",
     "tailscale": {
-      "ip": "100.105.127.25",
+      "hostname": "Pablo-11",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "hostname": "rdpfree-9",
-      "status": "ok",
-      "magicdns": "rdpfree-9.tail75fcdb.ts.net."
+      "magicdns": "pablo-11.tail6deb22.ts.net.",
+      "ip": "100.93.170.112",
+      "status": "ok"
     },
     "tunnel": {
-      "address": "100.105.127.25:3389",
       "selftest": "ok",
-      "host": "100.105.127.25",
-      "port": 3389,
       "outside": "tailscale",
-      "status": "ok"
-    }
+      "address": "100.93.170.112:3389",
+      "status": "ok",
+      "port": 3389,
+      "host": "100.93.170.112"
+    },
+    "mode": "tailscale"
   }
 }
